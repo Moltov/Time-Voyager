@@ -1,0 +1,136 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Time-Voyager", "Time-Voyager\Time-Voyager.vcxproj", "{D51F0825-6AF1-4A00-8384-11ECF0A87519}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewFolder1", "NewFolder1", "{C8AA7C5F-4F7B-497F-9A1F-8355353305D1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TVSource", "TVSource", "{5D41546B-3DD4-466B-AFFF-F06392730482}"
+	ProjectSection(SolutionItems) = preProject
+		Time-Voyager\TVSource\COPYCURRENTDIRECTORY.bat = Time-Voyager\TVSource\COPYCURRENTDIRECTORY.bat
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Apps", "Apps", "{3BC72027-C0DB-422F-8F73-1126AEB0876B}"
+	ProjectSection(SolutionItems) = preProject
+		Time-Voyager\TVSource\Apps\GameState.cpp = Time-Voyager\TVSource\Apps\GameState.cpp
+		Time-Voyager\TVSource\Apps\GameState.hpp = Time-Voyager\TVSource\Apps\GameState.hpp
+		Time-Voyager\TVSource\Apps\Time-Voyager.cpp = Time-Voyager\TVSource\Apps\Time-Voyager.cpp
+		Time-Voyager\TVSource\Apps\TimeVoyagerApp.cpp = Time-Voyager\TVSource\Apps\TimeVoyagerApp.cpp
+		Time-Voyager\TVSource\Apps\TimeVoyagerApp.hpp = Time-Voyager\TVSource\Apps\TimeVoyagerApp.hpp
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Assets", "Assets", "{F344029A-8C5B-450D-9780-1B98D5E500C3}"
+	ProjectSection(SolutionItems) = preProject
+		Time-Voyager\TVSource\Assets\ConfigAsset.cpp = Time-Voyager\TVSource\Assets\ConfigAsset.cpp
+		Time-Voyager\TVSource\Assets\ConfigAsset.hpp = Time-Voyager\TVSource\Assets\ConfigAsset.hpp
+		Time-Voyager\TVSource\Assets\ConfigHandler.cpp = Time-Voyager\TVSource\Assets\ConfigHandler.cpp
+		Time-Voyager\TVSource\Assets\ConfigHandler.hpp = Time-Voyager\TVSource\Assets\ConfigHandler.hpp
+		Time-Voyager\TVSource\Assets\FontAsset.cpp = Time-Voyager\TVSource\Assets\FontAsset.cpp
+		Time-Voyager\TVSource\Assets\FontAsset.hpp = Time-Voyager\TVSource\Assets\FontAsset.hpp
+		Time-Voyager\TVSource\Assets\FontHandler.cpp = Time-Voyager\TVSource\Assets\FontHandler.cpp
+		Time-Voyager\TVSource\Assets\FontHandler.hpp = Time-Voyager\TVSource\Assets\FontHandler.hpp
+		Time-Voyager\TVSource\Assets\ImageAsset.cpp = Time-Voyager\TVSource\Assets\ImageAsset.cpp
+		Time-Voyager\TVSource\Assets\ImageAsset.hpp = Time-Voyager\TVSource\Assets\ImageAsset.hpp
+		Time-Voyager\TVSource\Assets\ImageHandler.cpp = Time-Voyager\TVSource\Assets\ImageHandler.cpp
+		Time-Voyager\TVSource\Assets\ImageHandler.hpp = Time-Voyager\TVSource\Assets\ImageHandler.hpp
+		Time-Voyager\TVSource\Assets\MusicAsset.cpp = Time-Voyager\TVSource\Assets\MusicAsset.cpp
+		Time-Voyager\TVSource\Assets\MusicAsset.hpp = Time-Voyager\TVSource\Assets\MusicAsset.hpp
+		Time-Voyager\TVSource\Assets\MusicHandler.cpp = Time-Voyager\TVSource\Assets\MusicHandler.cpp
+		Time-Voyager\TVSource\Assets\MusicHandler.hpp = Time-Voyager\TVSource\Assets\MusicHandler.hpp
+		Time-Voyager\TVSource\Assets\SoundAsset.cpp = Time-Voyager\TVSource\Assets\SoundAsset.cpp
+		Time-Voyager\TVSource\Assets\SoundAsset.hpp = Time-Voyager\TVSource\Assets\SoundAsset.hpp
+		Time-Voyager\TVSource\Assets\SoundHandler.cpp = Time-Voyager\TVSource\Assets\SoundHandler.cpp
+		Time-Voyager\TVSource\Assets\SoundHandler.hpp = Time-Voyager\TVSource\Assets\SoundHandler.hpp
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{F70DA886-DE62-4C78-B591-8368952E6DFD}"
+	ProjectSection(SolutionItems) = preProject
+		Time-Voyager\TVSource\Core\Config.hpp = Time-Voyager\TVSource\Core\Config.hpp
+		Time-Voyager\TVSource\Core\Core.hpp = Time-Voyager\TVSource\Core\Core.hpp
+		Time-Voyager\TVSource\Core\Core_Types.cpp = Time-Voyager\TVSource\Core\Core_Types.cpp
+		Time-Voyager\TVSource\Core\Core_Types.hpp = Time-Voyager\TVSource\Core\Core_Types.hpp
+		Time-Voyager\TVSource\Core\stdafx.cpp = Time-Voyager\TVSource\Core\stdafx.cpp
+		Time-Voyager\TVSource\Core\stdafx.h = Time-Voyager\TVSource\Core\stdafx.h
+		Time-Voyager\TVSource\Core\targetver.h = Time-Voyager\TVSource\Core\targetver.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interfaces", "Interfaces", "{8202D9F5-7D02-4CCC-A319-1205000FD8E0}"
+	ProjectSection(SolutionItems) = preProject
+		Time-Voyager\TVSource\Interfaces\IApp.cpp = Time-Voyager\TVSource\Interfaces\IApp.cpp
+		Time-Voyager\TVSource\Interfaces\IApp.hpp = Time-Voyager\TVSource\Interfaces\IApp.hpp
+		Time-Voyager\TVSource\Interfaces\IAssetHandler.cpp = Time-Voyager\TVSource\Interfaces\IAssetHandler.cpp
+		Time-Voyager\TVSource\Interfaces\IAssetHandler.hpp = Time-Voyager\TVSource\Interfaces\IAssetHandler.hpp
+		Time-Voyager\TVSource\Interfaces\IEvent.cpp = Time-Voyager\TVSource\Interfaces\IEvent.cpp
+		Time-Voyager\TVSource\Interfaces\IEvent.hpp = Time-Voyager\TVSource\Interfaces\IEvent.hpp
+		Time-Voyager\TVSource\Interfaces\ILogger.cpp = Time-Voyager\TVSource\Interfaces\ILogger.cpp
+		Time-Voyager\TVSource\Interfaces\ILogger.hpp = Time-Voyager\TVSource\Interfaces\ILogger.hpp
+		Time-Voyager\TVSource\Interfaces\IProperty.cpp = Time-Voyager\TVSource\Interfaces\IProperty.cpp
+		Time-Voyager\TVSource\Interfaces\IProperty.hpp = Time-Voyager\TVSource\Interfaces\IProperty.hpp
+		Time-Voyager\TVSource\Interfaces\IState.cpp = Time-Voyager\TVSource\Interfaces\IState.cpp
+		Time-Voyager\TVSource\Interfaces\IState.hpp = Time-Voyager\TVSource\Interfaces\IState.hpp
+		Time-Voyager\TVSource\Interfaces\TAsset.hpp = Time-Voyager\TVSource\Interfaces\TAsset.hpp
+		Time-Voyager\TVSource\Interfaces\TAssetHandler.hpp = Time-Voyager\TVSource\Interfaces\TAssetHandler.hpp
+		Time-Voyager\TVSource\Interfaces\TEvent.hpp = Time-Voyager\TVSource\Interfaces\TEvent.hpp
+		Time-Voyager\TVSource\Interfaces\TProperty.hpp = Time-Voyager\TVSource\Interfaces\TProperty.hpp
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Loggers", "Loggers", "{34C10BD3-F823-4A44-8D65-EBD2105ABAC6}"
+	ProjectSection(SolutionItems) = preProject
+		Time-Voyager\TVSource\Loggers\FatalLogger.cpp = Time-Voyager\TVSource\Loggers\FatalLogger.cpp
+		Time-Voyager\TVSource\Loggers\FatalLogger.hpp = Time-Voyager\TVSource\Loggers\FatalLogger.hpp
+		Time-Voyager\TVSource\Loggers\FileLogger.cpp = Time-Voyager\TVSource\Loggers\FileLogger.cpp
+		Time-Voyager\TVSource\Loggers\FileLogger.hpp = Time-Voyager\TVSource\Loggers\FileLogger.hpp
+		Time-Voyager\TVSource\Loggers\Log_macros.hpp = Time-Voyager\TVSource\Loggers\Log_macros.hpp
+		Time-Voyager\TVSource\Loggers\onullstream = Time-Voyager\TVSource\Loggers\onullstream
+		Time-Voyager\TVSource\Loggers\ScopeLogger.cpp = Time-Voyager\TVSource\Loggers\ScopeLogger.cpp
+		Time-Voyager\TVSource\Loggers\ScopeLogger.hpp = Time-Voyager\TVSource\Loggers\ScopeLogger.hpp
+		Time-Voyager\TVSource\Loggers\StringLogger.cpp = Time-Voyager\TVSource\Loggers\StringLogger.cpp
+		Time-Voyager\TVSource\Loggers\StringLogger.hpp = Time-Voyager\TVSource\Loggers\StringLogger.hpp
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Managers", "Managers", "{BCEF33A1-6DFB-48FE-95DE-FF74B62B9B7E}"
+	ProjectSection(SolutionItems) = preProject
+		Time-Voyager\TVSource\Managers\AssetManager.cpp = Time-Voyager\TVSource\Managers\AssetManager.cpp
+		Time-Voyager\TVSource\Managers\AssetManager.hpp = Time-Voyager\TVSource\Managers\AssetManager.hpp
+		Time-Voyager\TVSource\Managers\ConfigReader.cpp = Time-Voyager\TVSource\Managers\ConfigReader.cpp
+		Time-Voyager\TVSource\Managers\ConfigReader.hpp = Time-Voyager\TVSource\Managers\ConfigReader.hpp
+		Time-Voyager\TVSource\Managers\EventManager.cpp = Time-Voyager\TVSource\Managers\EventManager.cpp
+		Time-Voyager\TVSource\Managers\EventManager.hpp = Time-Voyager\TVSource\Managers\EventManager.hpp
+		Time-Voyager\TVSource\Managers\PropertyManager.cpp = Time-Voyager\TVSource\Managers\PropertyManager.cpp
+		Time-Voyager\TVSource\Managers\PropertyManager.hpp = Time-Voyager\TVSource\Managers\PropertyManager.hpp
+		Time-Voyager\TVSource\Managers\StateManager.cpp = Time-Voyager\TVSource\Managers\StateManager.cpp
+		Time-Voyager\TVSource\Managers\StateManager.hpp = Time-Voyager\TVSource\Managers\StateManager.hpp
+		Time-Voyager\TVSource\Managers\StatManager.cpp = Time-Voyager\TVSource\Managers\StatManager.cpp
+		Time-Voyager\TVSource\Managers\StatManager.hpp = Time-Voyager\TVSource\Managers\StatManager.hpp
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Utils", "Utils", "{ED909932-254A-4D10-AAF8-FDF3C0D5581A}"
+	ProjectSection(SolutionItems) = preProject
+		Time-Voyager\TVSource\Utils\StringUtil.cpp = Time-Voyager\TVSource\Utils\StringUtil.cpp
+		Time-Voyager\TVSource\Utils\StringUtil.hpp = Time-Voyager\TVSource\Utils\StringUtil.hpp
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D51F0825-6AF1-4A00-8384-11ECF0A87519}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D51F0825-6AF1-4A00-8384-11ECF0A87519}.Debug|Win32.Build.0 = Debug|Win32
+		{D51F0825-6AF1-4A00-8384-11ECF0A87519}.Release|Win32.ActiveCfg = Release|Win32
+		{D51F0825-6AF1-4A00-8384-11ECF0A87519}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3BC72027-C0DB-422F-8F73-1126AEB0876B} = {5D41546B-3DD4-466B-AFFF-F06392730482}
+		{F344029A-8C5B-450D-9780-1B98D5E500C3} = {5D41546B-3DD4-466B-AFFF-F06392730482}
+		{F70DA886-DE62-4C78-B591-8368952E6DFD} = {5D41546B-3DD4-466B-AFFF-F06392730482}
+		{8202D9F5-7D02-4CCC-A319-1205000FD8E0} = {5D41546B-3DD4-466B-AFFF-F06392730482}
+		{34C10BD3-F823-4A44-8D65-EBD2105ABAC6} = {5D41546B-3DD4-466B-AFFF-F06392730482}
+		{BCEF33A1-6DFB-48FE-95DE-FF74B62B9B7E} = {5D41546B-3DD4-466B-AFFF-F06392730482}
+		{ED909932-254A-4D10-AAF8-FDF3C0D5581A} = {5D41546B-3DD4-466B-AFFF-F06392730482}
+	EndGlobalSection
+EndGlobal

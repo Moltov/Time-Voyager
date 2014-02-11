@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{a1deb4a4-6c4b-48eb-950d-a6bbf3008a56}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TVSource\Apps\GameState.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TVSource\Apps\Time-Voyager.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TVSource\Apps\TimeVoyagerApp.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TVSource\Assets\ConfigAsset.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TVSource\Assets\ConfigHandler.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TVSource\Assets\FontAsset.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TVSource\Assets\FontHandler.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TVSource\Assets\ImageAsset.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TVSource\Assets\ImageHandler.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TVSource\Assets\MusicAsset.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TVSource\Assets\MusicHandler.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TVSource\Assets\SoundAsset.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TVSource\Assets\SoundHandler.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TVSource\Core\Core_Types.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TVSource\Core\stdafx.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TVSource\Interfaces\IApp.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TVSource\Interfaces\IAssetHandler.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TVSource\Interfaces\IEvent.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TVSource\Interfaces\ILogger.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TVSource\Interfaces\IProperty.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TVSource\Interfaces\IState.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TVSource\Loggers\FatalLogger.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TVSource\Loggers\FileLogger.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TVSource\Loggers\ScopeLogger.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TVSource\Loggers\StringLogger.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TVSource\Managers\AssetManager.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TVSource\Managers\ConfigReader.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TVSource\Managers\EventManager.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TVSource\Managers\PropertyManager.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TVSource\Managers\StateManager.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TVSource\Managers\StatManager.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TVSource\Utils\StringUtil.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TVSource\Apps\GameState.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="TVSource\Apps\TimeVoyagerApp.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="TVSource\Assets\ConfigAsset.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="TVSource\Assets\ConfigHandler.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="TVSource\Assets\FontAsset.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="TVSource\Assets\FontHandler.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="TVSource\Assets\ImageAsset.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="TVSource\Assets\ImageHandler.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="TVSource\Assets\MusicAsset.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="TVSource\Assets\MusicHandler.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="TVSource\Assets\SoundAsset.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="TVSource\Assets\SoundHandler.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="TVSource\Core\Config.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="TVSource\Core\Core.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="TVSource\Core\Core_Types.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="TVSource\Core\stdafx.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="TVSource\Core\targetver.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="TVSource\Interfaces\IApp.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="TVSource\Interfaces\IAssetHandler.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="TVSource\Interfaces\IEvent.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="TVSource\Interfaces\ILogger.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="TVSource\Interfaces\IProperty.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="TVSource\Interfaces\IState.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="TVSource\Interfaces\TAsset.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="TVSource\Interfaces\TAssetHandler.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="TVSource\Interfaces\TEvent.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="TVSource\Interfaces\TProperty.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="TVSource\Loggers\FatalLogger.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="TVSource\Loggers\FileLogger.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="TVSource\Loggers\Log_macros.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="TVSource\Loggers\ScopeLogger.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="TVSource\Loggers\StringLogger.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="TVSource\Managers\AssetManager.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="TVSource\Managers\ConfigReader.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="TVSource\Managers\EventManager.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="TVSource\Managers\PropertyManager.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="TVSource\Managers\StateManager.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="TVSource\Managers\StatManager.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="TVSource\Utils\StringUtil.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
