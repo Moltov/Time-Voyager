@@ -15,11 +15,11 @@
 #include <TVSource/Interfaces/ILogger.hpp>
 #include <TVSource/Interfaces/IApp.hpp>
 
-#ifdef BUILDING_MYDLL
+/*#ifdef BUILDING_MYDLL
 #define iLogger_DECLSPEC __declspec(dllexport)
 #else
 #define iLogger_DECLSPEC __declspec(dllimport)
-#endif
+#endif*/
 
 namespace GQE
 {

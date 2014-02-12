@@ -1,86 +1,84 @@
-2014-02-11 16:06:45 I TVSource\Loggers\FileLogger.cpp:21 FileLogger::ctor()
-2014-02-11 16:06:46 I TVSource\Managers\AssetManager.cpp:29 AssetManager::ctor()
-2014-02-11 16:06:46 I TVSource\Managers\StatManager.cpp:44 StatManager::ctor()
-2014-02-11 16:06:46 I TVSource\Managers\StateManager.cpp:37 StateManager::ctor()
-2014-02-11 16:06:46 I TVSource\Interfaces\IApp.cpp:100 IApp::ProcessArguments(C:\Users\Kevin\documents\visual studio 2010\Projects\Time-Voyager\Release\Time-Voyager.exe) command line: (none)
-2014-02-11 16:06:46 I TVSource\Interfaces\IApp.cpp:114 Enter(App_Run) 
-2014-02-11 16:06:46 I TVSource\Interfaces\IAssetHandler.cpp:19 IAssetHandler::ctor(class GQE::ConfigReader)
-2014-02-11 16:06:46 I TVSource\Managers\ConfigReader.cpp:35 ConfigReader::ctor()
-2014-02-11 16:06:46 I C:\Users\Kevin\documents\visual studio 2010\Projects\Time-Voyager\Time-Voyager\TVSource/Interfaces/TAssetHandler.hpp:32 TAssetHandler::ctor(class GQE::ConfigReader)
-2014-02-11 16:06:46 I TVSource\Assets\ConfigHandler.cpp:19 ConfigHandler::ctor()
-2014-02-11 16:06:46 I TVSource\Interfaces\IAssetHandler.cpp:19 IAssetHandler::ctor(class sf::Font)
-2014-02-11 16:06:46 I C:\Users\Kevin\documents\visual studio 2010\Projects\Time-Voyager\Time-Voyager\TVSource/Interfaces/TAssetHandler.hpp:32 TAssetHandler::ctor(class sf::Font)
-2014-02-11 16:06:46 I TVSource\Assets\FontHandler.cpp:18 FontHandler::ctor()
-2014-02-11 16:06:46 I TVSource\Interfaces\IAssetHandler.cpp:19 IAssetHandler::ctor(class sf::Texture)
-2014-02-11 16:06:46 I C:\Users\Kevin\documents\visual studio 2010\Projects\Time-Voyager\Time-Voyager\TVSource/Interfaces/TAssetHandler.hpp:32 TAssetHandler::ctor(class sf::Texture)
-2014-02-11 16:06:46 I TVSource\Assets\ImageHandler.cpp:22 ImageHandler::ctor()
-2014-02-11 16:06:46 I TVSource\Interfaces\IAssetHandler.cpp:19 IAssetHandler::ctor(class sf::Music)
-2014-02-11 16:06:46 I C:\Users\Kevin\documents\visual studio 2010\Projects\Time-Voyager\Time-Voyager\TVSource/Interfaces/TAssetHandler.hpp:32 TAssetHandler::ctor(class sf::Music)
-2014-02-11 16:06:46 I TVSource\Assets\MusicHandler.cpp:18 MusicHandler::ctor()
-2014-02-11 16:06:46 I TVSource\Interfaces\IAssetHandler.cpp:19 IAssetHandler::ctor(class sf::SoundBuffer)
-2014-02-11 16:06:46 I C:\Users\Kevin\documents\visual studio 2010\Projects\Time-Voyager\Time-Voyager\TVSource/Interfaces/TAssetHandler.hpp:32 TAssetHandler::ctor(class sf::SoundBuffer)
-2014-02-11 16:06:46 I TVSource\Assets\SoundHandler.cpp:18 SoundHandler::ctor()
-2014-02-11 16:06:46 I TVSource\Interfaces\IApp.cpp:244 Enter(App_InitSettingsConfig) 
-2014-02-11 16:06:46 I C:\Users\Kevin\documents\visual studio 2010\Projects\Time-Voyager\Time-Voyager\TVSource/Interfaces/TAssetHandler.hpp:731 TAssetHandler(class GQE::ConfigReader):AcquireAsset(TVSource/resources/Settings/settings.cfg) Creating asset
-2014-02-11 16:06:46 I TVSource\Managers\ConfigReader.cpp:35 ConfigReader::ctor()
-2014-02-11 16:06:46 I TVSource\Managers\ConfigReader.cpp:194 ConfigReader:Read(TVSource/resources/Settings/settings.cfg) opening...
-2014-02-11 16:06:46 E TVSource\Managers\ConfigReader.cpp:234 ConfigReader::Read(TVSource/resources/Settings/settings.cfg) error opening file
-2014-02-11 16:06:46 I TVSource\Managers\ConfigReader.cpp:194 ConfigReader:Read(TVSource/resources/Settings/settings.cfg) opening...
-2014-02-11 16:06:46 E TVSource\Managers\ConfigReader.cpp:234 ConfigReader::Read(TVSource/resources/Settings/settings.cfg) error opening file
-2014-02-11 16:06:46 I TVSource\Managers\ConfigReader.cpp:194 ConfigReader:Read(TVSource/resources/Settings/settings.cfg) opening...
-2014-02-11 16:06:46 E TVSource\Managers\ConfigReader.cpp:234 ConfigReader::Read(TVSource/resources/Settings/settings.cfg) error opening file
-2014-02-11 16:06:46 I TVSource\Managers\ConfigReader.cpp:194 ConfigReader:Read(TVSource/resources/Settings/settings.cfg) opening...
-2014-02-11 16:06:46 E TVSource\Managers\ConfigReader.cpp:234 ConfigReader::Read(TVSource/resources/Settings/settings.cfg) error opening file
-2014-02-11 16:06:46 I TVSource\Managers\ConfigReader.cpp:194 ConfigReader:Read(TVSource/resources/Settings/settings.cfg) opening...
-2014-02-11 16:06:46 E TVSource\Managers\ConfigReader.cpp:234 ConfigReader::Read(TVSource/resources/Settings/settings.cfg) error opening file
-2014-02-11 16:06:46 I C:\Users\Kevin\documents\visual studio 2010\Projects\Time-Voyager\Time-Voyager\TVSource/Interfaces/TAssetHandler.hpp:744 TAssetHandler(class GQE::ConfigReader):ReleaseAsset(TVSource/resources/Settings/settings.cfg) Releasing asset
-2014-02-11 16:06:46 I TVSource\Managers\ConfigReader.cpp:45 ConfigReader::dtor()
-2014-02-11 16:06:46 I TVSource\Interfaces\IApp.cpp:244 Exit(App_InitSettingsConfig)
-2014-02-11 16:06:46 I TVSource\Interfaces\IApp.cpp:262 Enter(App_InitRenderer) 
-2014-02-11 16:06:46 I TVSource\Interfaces\IApp.cpp:262 Exit(App_InitRenderer)
-2014-02-11 16:06:46 I TVSource\Interfaces\IState.cpp:30 IState::ctor(Game)
-2014-02-11 16:06:46 I C:\Users\Kevin\documents\visual studio 2010\Projects\Time-Voyager\Time-Voyager\TVSource/Interfaces/TAssetHandler.hpp:731 TAssetHandler(class sf::Font):AcquireAsset(resources/Fonts/arial.ttf) Creating asset
-2014-02-11 16:06:46 I C:\Users\Kevin\documents\visual studio 2010\Projects\Time-Voyager\Time-Voyager\TVSource/Interfaces/TAssetHandler.hpp:731 TAssetHandler(class sf::Texture):AcquireAsset(resources/Graphics/Board.png) Creating asset
-2014-02-11 16:06:46 I C:\Users\Kevin\documents\visual studio 2010\Projects\Time-Voyager\Time-Voyager\TVSource/Interfaces/TAssetHandler.hpp:731 TAssetHandler(class sf::Texture):AcquireAsset(resources/Graphics/Player1.png) Creating asset
-2014-02-11 16:06:46 I C:\Users\Kevin\documents\visual studio 2010\Projects\Time-Voyager\Time-Voyager\TVSource/Interfaces/TAssetHandler.hpp:731 TAssetHandler(class sf::Texture):AcquireAsset(resources/Graphics/Player2.png) Creating asset
-2014-02-11 16:06:46 I C:\Users\Kevin\documents\visual studio 2010\Projects\Time-Voyager\Time-Voyager\TVSource/Interfaces/TAssetHandler.hpp:731 TAssetHandler(class sf::Texture):AcquireAsset(resources/Graphics/Empty.png) Creating asset
-2014-02-11 16:06:46 I TVSource\Managers\StateManager.cpp:119 StateManager::AddActiveState(Game)
-2014-02-11 16:06:46 I TVSource\Interfaces\IState.cpp:45 IState::DoInit(Game)
-2014-02-11 16:06:46 I TVSource\Managers\StatManager.cpp:59 StatManager::DoInit()
-2014-02-11 16:06:46 I TVSource\Interfaces\IApp.cpp:305 Enter(App_GameLoop) 
-2014-02-11 16:07:26 I TVSource\Interfaces\IState.cpp:109 IState::Pause(Game)
-2014-02-11 16:07:28 I TVSource\Interfaces\IState.cpp:124 IState::Resume(Game)
-2014-02-11 16:07:30 I TVSource\Interfaces\IApp.cpp:305 Exit(App_GameLoop)
-2014-02-11 16:07:30 I TVSource\Interfaces\IApp.cpp:414 Enter(App_Cleanup) 
-2014-02-11 16:07:30 I TVSource\Managers\StatManager.cpp:95 StatManager::DeInit()
-2014-02-11 16:07:30 I TVSource\Interfaces\IApp.cpp:414 Exit(App_Cleanup)
-2014-02-11 16:07:30 I TVSource\Interfaces\IApp.cpp:165 Result(App_Run) exitCode=0
-2014-02-11 16:07:30 I TVSource\Interfaces\IApp.cpp:165 Exit(App_Run)
-2014-02-11 16:07:30 I TVSource\Managers\StateManager.cpp:42 StateManager::dtor()
-2014-02-11 16:07:30 I TVSource\Interfaces\IState.cpp:109 IState::Pause(Game)
-2014-02-11 16:07:30 I TVSource\Interfaces\IState.cpp:75 IState::DeInit(Game)
-2014-02-11 16:07:30 I C:\Users\Kevin\documents\visual studio 2010\Projects\Time-Voyager\Time-Voyager\TVSource/Interfaces/TAssetHandler.hpp:744 TAssetHandler(class sf::Texture):ReleaseAsset(resources/Graphics/Empty.png) Releasing asset
-2014-02-11 16:07:30 I C:\Users\Kevin\documents\visual studio 2010\Projects\Time-Voyager\Time-Voyager\TVSource/Interfaces/TAssetHandler.hpp:744 TAssetHandler(class sf::Texture):ReleaseAsset(resources/Graphics/Player2.png) Releasing asset
-2014-02-11 16:07:30 I C:\Users\Kevin\documents\visual studio 2010\Projects\Time-Voyager\Time-Voyager\TVSource/Interfaces/TAssetHandler.hpp:744 TAssetHandler(class sf::Texture):ReleaseAsset(resources/Graphics/Player1.png) Releasing asset
-2014-02-11 16:07:30 I C:\Users\Kevin\documents\visual studio 2010\Projects\Time-Voyager\Time-Voyager\TVSource/Interfaces/TAssetHandler.hpp:744 TAssetHandler(class sf::Texture):ReleaseAsset(resources/Graphics/Board.png) Releasing asset
-2014-02-11 16:07:30 I C:\Users\Kevin\documents\visual studio 2010\Projects\Time-Voyager\Time-Voyager\TVSource/Interfaces/TAssetHandler.hpp:744 TAssetHandler(class sf::Font):ReleaseAsset(resources/Fonts/arial.ttf) Releasing asset
-2014-02-11 16:07:30 I TVSource\Interfaces\IState.cpp:35 IState::dtor(Game)
-2014-02-11 16:07:30 I TVSource\Managers\StatManager.cpp:51 StatManager::dtor()
-2014-02-11 16:07:30 I TVSource\Managers\AssetManager.cpp:34 AssetManager::dtor()
-2014-02-11 16:07:30 I TVSource\Assets\ConfigHandler.cpp:24 ConfigHandler::dtor()
-2014-02-11 16:07:30 I C:\Users\Kevin\documents\visual studio 2010\Projects\Time-Voyager\Time-Voyager\TVSource/Interfaces/TAssetHandler.hpp:40 TAssetHandler::dtor(class GQE::ConfigReader)
-2014-02-11 16:07:30 I TVSource\Managers\ConfigReader.cpp:45 ConfigReader::dtor()
-2014-02-11 16:07:30 I TVSource\Interfaces\IAssetHandler.cpp:24 IAssetHandler::dtor(class GQE::ConfigReader)
-2014-02-11 16:07:30 I TVSource\Assets\FontHandler.cpp:23 FontHandler::dtor()
-2014-02-11 16:07:30 I C:\Users\Kevin\documents\visual studio 2010\Projects\Time-Voyager\Time-Voyager\TVSource/Interfaces/TAssetHandler.hpp:40 TAssetHandler::dtor(class sf::Font)
-2014-02-11 16:07:30 I TVSource\Interfaces\IAssetHandler.cpp:24 IAssetHandler::dtor(class sf::Font)
-2014-02-11 16:07:30 I TVSource\Assets\MusicHandler.cpp:23 MusicHandler::dtor()
-2014-02-11 16:07:30 I C:\Users\Kevin\documents\visual studio 2010\Projects\Time-Voyager\Time-Voyager\TVSource/Interfaces/TAssetHandler.hpp:40 TAssetHandler::dtor(class sf::Music)
-2014-02-11 16:07:30 I TVSource\Interfaces\IAssetHandler.cpp:24 IAssetHandler::dtor(class sf::Music)
-2014-02-11 16:07:30 I TVSource\Assets\SoundHandler.cpp:23 SoundHandler::dtor()
-2014-02-11 16:07:30 I C:\Users\Kevin\documents\visual studio 2010\Projects\Time-Voyager\Time-Voyager\TVSource/Interfaces/TAssetHandler.hpp:40 TAssetHandler::dtor(class sf::SoundBuffer)
-2014-02-11 16:07:30 I TVSource\Interfaces\IAssetHandler.cpp:24 IAssetHandler::dtor(class sf::SoundBuffer)
-2014-02-11 16:07:30 I TVSource\Assets\ImageHandler.cpp:27 ImageHandler::dtor()
-2014-02-11 16:07:30 I C:\Users\Kevin\documents\visual studio 2010\Projects\Time-Voyager\Time-Voyager\TVSource/Interfaces/TAssetHandler.hpp:40 TAssetHandler::dtor(class sf::Texture)
-2014-02-11 16:07:30 I TVSource\Interfaces\IAssetHandler.cpp:24 IAssetHandler::dtor(class sf::Texture)
-2014-02-11 16:07:30 I TVSource\Loggers\FileLogger.cpp:29 FileLogger::dtor()
+2014-02-12 16:41:05 I TVSource\Loggers\FileLogger.cpp:21 FileLogger::ctor()
+2014-02-12 16:41:08 I TVSource\Managers\AssetManager.cpp:29 AssetManager::ctor()
+2014-02-12 16:41:08 I TVSource\Managers\StatManager.cpp:44 StatManager::ctor()
+2014-02-12 16:41:08 I TVSource\Managers\StateManager.cpp:37 StateManager::ctor()
+2014-02-12 16:41:08 I TVSource\Interfaces\IApp.cpp:100 IApp::ProcessArguments(C:\Users\Kevin\documents\visual studio 2010\Projects\Time-Voyager\Release\Time-Voyager.exe) command line: (none)
+2014-02-12 16:41:08 I TVSource\Interfaces\IApp.cpp:114 Enter(App_Run) 
+2014-02-12 16:41:08 I TVSource\Interfaces\IAssetHandler.cpp:19 IAssetHandler::ctor(class GQE::ConfigReader)
+2014-02-12 16:41:08 I TVSource\Managers\ConfigReader.cpp:35 ConfigReader::ctor()
+2014-02-12 16:41:08 I C:\Users\Kevin\documents\visual studio 2010\Projects\Time-Voyager\Time-Voyager\TVSource/Interfaces/TAssetHandler.hpp:32 TAssetHandler::ctor(class GQE::ConfigReader)
+2014-02-12 16:41:08 I TVSource\Assets\ConfigHandler.cpp:19 ConfigHandler::ctor()
+2014-02-12 16:41:08 I TVSource\Interfaces\IAssetHandler.cpp:19 IAssetHandler::ctor(class sf::Font)
+2014-02-12 16:41:08 I C:\Users\Kevin\documents\visual studio 2010\Projects\Time-Voyager\Time-Voyager\TVSource/Interfaces/TAssetHandler.hpp:32 TAssetHandler::ctor(class sf::Font)
+2014-02-12 16:41:08 I TVSource\Assets\FontHandler.cpp:18 FontHandler::ctor()
+2014-02-12 16:41:08 I TVSource\Interfaces\IAssetHandler.cpp:19 IAssetHandler::ctor(class sf::Texture)
+2014-02-12 16:41:08 I C:\Users\Kevin\documents\visual studio 2010\Projects\Time-Voyager\Time-Voyager\TVSource/Interfaces/TAssetHandler.hpp:32 TAssetHandler::ctor(class sf::Texture)
+2014-02-12 16:41:08 I TVSource\Assets\ImageHandler.cpp:22 ImageHandler::ctor()
+2014-02-12 16:41:08 I TVSource\Interfaces\IAssetHandler.cpp:19 IAssetHandler::ctor(class sf::Music)
+2014-02-12 16:41:08 I C:\Users\Kevin\documents\visual studio 2010\Projects\Time-Voyager\Time-Voyager\TVSource/Interfaces/TAssetHandler.hpp:32 TAssetHandler::ctor(class sf::Music)
+2014-02-12 16:41:08 I TVSource\Assets\MusicHandler.cpp:18 MusicHandler::ctor()
+2014-02-12 16:41:08 I TVSource\Interfaces\IAssetHandler.cpp:19 IAssetHandler::ctor(class sf::SoundBuffer)
+2014-02-12 16:41:08 I C:\Users\Kevin\documents\visual studio 2010\Projects\Time-Voyager\Time-Voyager\TVSource/Interfaces/TAssetHandler.hpp:32 TAssetHandler::ctor(class sf::SoundBuffer)
+2014-02-12 16:41:08 I TVSource\Assets\SoundHandler.cpp:18 SoundHandler::ctor()
+2014-02-12 16:41:08 I TVSource\Interfaces\IApp.cpp:244 Enter(App_InitSettingsConfig) 
+2014-02-12 16:41:08 I C:\Users\Kevin\documents\visual studio 2010\Projects\Time-Voyager\Time-Voyager\TVSource/Interfaces/TAssetHandler.hpp:731 TAssetHandler(class GQE::ConfigReader):AcquireAsset(TVSource/resources/Settings/settings.cfg) Creating asset
+2014-02-12 16:41:08 I TVSource\Managers\ConfigReader.cpp:35 ConfigReader::ctor()
+2014-02-12 16:41:08 I TVSource\Managers\ConfigReader.cpp:194 ConfigReader:Read(TVSource/resources/Settings/settings.cfg) opening...
+2014-02-12 16:41:08 E TVSource\Managers\ConfigReader.cpp:234 ConfigReader::Read(TVSource/resources/Settings/settings.cfg) error opening file
+2014-02-12 16:41:08 I TVSource\Managers\ConfigReader.cpp:194 ConfigReader:Read(TVSource/resources/Settings/settings.cfg) opening...
+2014-02-12 16:41:08 E TVSource\Managers\ConfigReader.cpp:234 ConfigReader::Read(TVSource/resources/Settings/settings.cfg) error opening file
+2014-02-12 16:41:08 I TVSource\Managers\ConfigReader.cpp:194 ConfigReader:Read(TVSource/resources/Settings/settings.cfg) opening...
+2014-02-12 16:41:08 E TVSource\Managers\ConfigReader.cpp:234 ConfigReader::Read(TVSource/resources/Settings/settings.cfg) error opening file
+2014-02-12 16:41:08 I TVSource\Managers\ConfigReader.cpp:194 ConfigReader:Read(TVSource/resources/Settings/settings.cfg) opening...
+2014-02-12 16:41:08 E TVSource\Managers\ConfigReader.cpp:234 ConfigReader::Read(TVSource/resources/Settings/settings.cfg) error opening file
+2014-02-12 16:41:08 I TVSource\Managers\ConfigReader.cpp:194 ConfigReader:Read(TVSource/resources/Settings/settings.cfg) opening...
+2014-02-12 16:41:08 E TVSource\Managers\ConfigReader.cpp:234 ConfigReader::Read(TVSource/resources/Settings/settings.cfg) error opening file
+2014-02-12 16:41:08 I C:\Users\Kevin\documents\visual studio 2010\Projects\Time-Voyager\Time-Voyager\TVSource/Interfaces/TAssetHandler.hpp:744 TAssetHandler(class GQE::ConfigReader):ReleaseAsset(TVSource/resources/Settings/settings.cfg) Releasing asset
+2014-02-12 16:41:08 I TVSource\Managers\ConfigReader.cpp:45 ConfigReader::dtor()
+2014-02-12 16:41:08 I TVSource\Interfaces\IApp.cpp:244 Exit(App_InitSettingsConfig)
+2014-02-12 16:41:08 I TVSource\Interfaces\IApp.cpp:262 Enter(App_InitRenderer) 
+2014-02-12 16:41:09 I TVSource\Interfaces\IApp.cpp:262 Exit(App_InitRenderer)
+2014-02-12 16:41:09 I TVSource\Interfaces\IState.cpp:30 IState::ctor(Game)
+2014-02-12 16:41:09 I C:\Users\Kevin\documents\visual studio 2010\Projects\Time-Voyager\Time-Voyager\TVSource/Interfaces/TAssetHandler.hpp:731 TAssetHandler(class sf::Font):AcquireAsset(resources/Fonts/arial.ttf) Creating asset
+2014-02-12 16:41:09 I C:\Users\Kevin\documents\visual studio 2010\Projects\Time-Voyager\Time-Voyager\TVSource/Interfaces/TAssetHandler.hpp:731 TAssetHandler(class sf::Texture):AcquireAsset(resources/Graphics/Board.png) Creating asset
+2014-02-12 16:41:09 I C:\Users\Kevin\documents\visual studio 2010\Projects\Time-Voyager\Time-Voyager\TVSource/Interfaces/TAssetHandler.hpp:731 TAssetHandler(class sf::Texture):AcquireAsset(resources/Graphics/Player1.png) Creating asset
+2014-02-12 16:41:09 I C:\Users\Kevin\documents\visual studio 2010\Projects\Time-Voyager\Time-Voyager\TVSource/Interfaces/TAssetHandler.hpp:731 TAssetHandler(class sf::Texture):AcquireAsset(resources/Graphics/Player2.png) Creating asset
+2014-02-12 16:41:09 I C:\Users\Kevin\documents\visual studio 2010\Projects\Time-Voyager\Time-Voyager\TVSource/Interfaces/TAssetHandler.hpp:731 TAssetHandler(class sf::Texture):AcquireAsset(resources/Graphics/Empty.png) Creating asset
+2014-02-12 16:41:09 I TVSource\Managers\StateManager.cpp:119 StateManager::AddActiveState(Game)
+2014-02-12 16:41:09 I TVSource\Interfaces\IState.cpp:45 IState::DoInit(Game)
+2014-02-12 16:41:09 I TVSource\Managers\StatManager.cpp:59 StatManager::DoInit()
+2014-02-12 16:41:09 I TVSource\Interfaces\IApp.cpp:305 Enter(App_GameLoop) 
+2014-02-12 16:41:17 I TVSource\Interfaces\IApp.cpp:305 Exit(App_GameLoop)
+2014-02-12 16:41:17 I TVSource\Interfaces\IApp.cpp:414 Enter(App_Cleanup) 
+2014-02-12 16:41:17 I TVSource\Managers\StatManager.cpp:95 StatManager::DeInit()
+2014-02-12 16:41:17 I TVSource\Interfaces\IApp.cpp:414 Exit(App_Cleanup)
+2014-02-12 16:41:17 I TVSource\Interfaces\IApp.cpp:165 Result(App_Run) exitCode=0
+2014-02-12 16:41:17 I TVSource\Interfaces\IApp.cpp:165 Exit(App_Run)
+2014-02-12 16:41:17 I TVSource\Managers\StateManager.cpp:42 StateManager::dtor()
+2014-02-12 16:41:17 I TVSource\Interfaces\IState.cpp:109 IState::Pause(Game)
+2014-02-12 16:41:17 I TVSource\Interfaces\IState.cpp:75 IState::DeInit(Game)
+2014-02-12 16:41:17 I C:\Users\Kevin\documents\visual studio 2010\Projects\Time-Voyager\Time-Voyager\TVSource/Interfaces/TAssetHandler.hpp:744 TAssetHandler(class sf::Texture):ReleaseAsset(resources/Graphics/Empty.png) Releasing asset
+2014-02-12 16:41:17 I C:\Users\Kevin\documents\visual studio 2010\Projects\Time-Voyager\Time-Voyager\TVSource/Interfaces/TAssetHandler.hpp:744 TAssetHandler(class sf::Texture):ReleaseAsset(resources/Graphics/Player2.png) Releasing asset
+2014-02-12 16:41:17 I C:\Users\Kevin\documents\visual studio 2010\Projects\Time-Voyager\Time-Voyager\TVSource/Interfaces/TAssetHandler.hpp:744 TAssetHandler(class sf::Texture):ReleaseAsset(resources/Graphics/Player1.png) Releasing asset
+2014-02-12 16:41:17 I C:\Users\Kevin\documents\visual studio 2010\Projects\Time-Voyager\Time-Voyager\TVSource/Interfaces/TAssetHandler.hpp:744 TAssetHandler(class sf::Texture):ReleaseAsset(resources/Graphics/Board.png) Releasing asset
+2014-02-12 16:41:17 I C:\Users\Kevin\documents\visual studio 2010\Projects\Time-Voyager\Time-Voyager\TVSource/Interfaces/TAssetHandler.hpp:744 TAssetHandler(class sf::Font):ReleaseAsset(resources/Fonts/arial.ttf) Releasing asset
+2014-02-12 16:41:17 I TVSource\Interfaces\IState.cpp:35 IState::dtor(Game)
+2014-02-12 16:41:17 I TVSource\Managers\StatManager.cpp:51 StatManager::dtor()
+2014-02-12 16:41:17 I TVSource\Managers\AssetManager.cpp:34 AssetManager::dtor()
+2014-02-12 16:41:17 I TVSource\Assets\ConfigHandler.cpp:24 ConfigHandler::dtor()
+2014-02-12 16:41:17 I C:\Users\Kevin\documents\visual studio 2010\Projects\Time-Voyager\Time-Voyager\TVSource/Interfaces/TAssetHandler.hpp:40 TAssetHandler::dtor(class GQE::ConfigReader)
+2014-02-12 16:41:17 I TVSource\Managers\ConfigReader.cpp:45 ConfigReader::dtor()
+2014-02-12 16:41:17 I TVSource\Interfaces\IAssetHandler.cpp:24 IAssetHandler::dtor(class GQE::ConfigReader)
+2014-02-12 16:41:17 I TVSource\Assets\FontHandler.cpp:23 FontHandler::dtor()
+2014-02-12 16:41:17 I C:\Users\Kevin\documents\visual studio 2010\Projects\Time-Voyager\Time-Voyager\TVSource/Interfaces/TAssetHandler.hpp:40 TAssetHandler::dtor(class sf::Font)
+2014-02-12 16:41:17 I TVSource\Interfaces\IAssetHandler.cpp:24 IAssetHandler::dtor(class sf::Font)
+2014-02-12 16:41:17 I TVSource\Assets\MusicHandler.cpp:23 MusicHandler::dtor()
+2014-02-12 16:41:17 I C:\Users\Kevin\documents\visual studio 2010\Projects\Time-Voyager\Time-Voyager\TVSource/Interfaces/TAssetHandler.hpp:40 TAssetHandler::dtor(class sf::Music)
+2014-02-12 16:41:17 I TVSource\Interfaces\IAssetHandler.cpp:24 IAssetHandler::dtor(class sf::Music)
+2014-02-12 16:41:17 I TVSource\Assets\SoundHandler.cpp:23 SoundHandler::dtor()
+2014-02-12 16:41:17 I C:\Users\Kevin\documents\visual studio 2010\Projects\Time-Voyager\Time-Voyager\TVSource/Interfaces/TAssetHandler.hpp:40 TAssetHandler::dtor(class sf::SoundBuffer)
+2014-02-12 16:41:17 I TVSource\Interfaces\IAssetHandler.cpp:24 IAssetHandler::dtor(class sf::SoundBuffer)
+2014-02-12 16:41:17 I TVSource\Assets\ImageHandler.cpp:27 ImageHandler::dtor()
+2014-02-12 16:41:17 I C:\Users\Kevin\documents\visual studio 2010\Projects\Time-Voyager\Time-Voyager\TVSource/Interfaces/TAssetHandler.hpp:40 TAssetHandler::dtor(class sf::Texture)
+2014-02-12 16:41:17 I TVSource\Interfaces\IAssetHandler.cpp:24 IAssetHandler::dtor(class sf::Texture)
+2014-02-12 16:41:17 I TVSource\Loggers\FileLogger.cpp:29 FileLogger::dtor()
