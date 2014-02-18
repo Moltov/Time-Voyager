@@ -9,6 +9,7 @@
  */
 #include <TVSource/Apps/TimeVoyagerApp.hpp>
 #include <TVSource/Apps/GameState.hpp>
+#include <TVSource/Apps/MenuState.hpp>
 
 TimeVoyagerApp::TimeVoyagerApp(const std::string theTitle) :
 GQE::IApp(theTitle)
@@ -27,7 +28,8 @@ void TimeVoyagerApp::InitAssetHandlers(void)
 void TimeVoyagerApp::InitScreenFactory(void)
 {
   // Add Game State as the next active state
-  mStateManager.AddActiveState(new(std::nothrow) GameState(*this));
+	
+	mStateManager.AddActiveState(new(std::nothrow) MenuState(*this));
 }
 
 void TimeVoyagerApp::HandleCleanup(void)

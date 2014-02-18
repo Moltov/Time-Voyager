@@ -12,6 +12,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="TVSource\Apps\GameState.cpp" />
+    <ClCompile Include="TVSource\Apps\MenuState.cpp" />
     <ClCompile Include="TVSource\Apps\Time-Voyager.cpp" />
     <ClCompile Include="TVSource\Apps\TimeVoyagerApp.cpp" />
     <ClCompile Include="TVSource\Assets\ConfigAsset.cpp" />
@@ -46,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TVSource\Apps\GameState.hpp" />
+    <ClInclude Include="TVSource\Apps\MenuState.hpp" />
     <ClInclude Include="TVSource\Apps\TimeVoyagerApp.hpp" />
     <ClInclude Include="TVSource\Assets\ConfigAsset.hpp" />
     <ClInclude Include="TVSource\Assets\ConfigHandler.hpp" />

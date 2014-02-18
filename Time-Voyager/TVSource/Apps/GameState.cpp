@@ -11,6 +11,7 @@
  * @date 20120630 - Fix mouse image of X or O and SFML 2 and Window mode.
  */
 #include "GameState.hpp"
+#include <TVSource/Apps/MenuState.hpp>
 #include <TVSource/Interfaces/IApp.hpp>
 
 GameState::GameState(GQE::IApp& theApp) :
@@ -85,8 +86,9 @@ void GameState::HandleEvents(sf::Event theEvent)
   // Exit program if Escape key is pressed
     if((theEvent.type == sf::Event::KeyReleased) && (theEvent.key.code == sf::Keyboard::Escape))
     {
-      // Signal the application to exit
-      mApp.Quit(GQE::StatusAppOK);
+      // 
+		mApp.mStateManager.AddInactiveState(new(std::nothrow) MenuState(mApp));
+	  mApp.mStateManager.DropActiveState();
     }
 
 
