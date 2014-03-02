@@ -16,6 +16,10 @@
 #include <TVSource/Assets/ImageAsset.hpp>
 #include <TVSource/Interfaces/IState.hpp>
 #include <TVSource/Core/Core_types.hpp>
+#include <TVSource/Entity/systems/AnimationSystem.hpp>
+#include <TVSource/Entity/systems/RenderSystem.hpp>
+#include <TVSource/Entity/systems/MovementSystem.hpp>
+#include <TVSource/Entity/classes/Prototype.hpp>
 
 /// Provides the TicTacToe GameState example
 class GameState : public GQE::IState
@@ -80,6 +84,20 @@ class GameState : public GQE::IState
   private:
     // Variables
     /////////////////////////////////////////////////////////////////////////
+
+	  /// The prototype system for creating our player
+    GQE::Prototype       mPlayer;
+	/// The instance created using the prototype above
+    GQE::Instance*       mCharacter;
+	/// The image to use for the player
+    GQE::ImageAsset*     mPlayerImage;
+	sf::Texture          mCharacterImage;
+	/// The animation system for our player
+    GQE::AnimationSystem mAnimationSystem;
+	/// The render system for handling players, etc
+    GQE::RenderSystem    mRenderSystem;
+
+
     GQE::FontAsset  mWinFont;
     GQE::ImageAsset mBackground;
     GQE::ImageAsset mPlayer1;

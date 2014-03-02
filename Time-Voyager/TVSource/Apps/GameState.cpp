@@ -13,9 +13,17 @@
 #include "GameState.hpp"
 #include <TVSource/Apps/MenuState.hpp>
 #include <TVSource/Interfaces/IApp.hpp>
+#include <SFML/Graphics.hpp>
+#include <TVSource/Entity/classes/Instance.hpp>
+#include <TVSource/assets/ImageAsset.hpp>
+
+
 
 GameState::GameState(GQE::IApp& theApp) :
   GQE::IState("Game",theApp),
+  mAnimationSystem(theApp),
+  mRenderSystem(theApp),
+  mPlayer("player", 255),
   mWinFont("resources/Fonts/arial.ttf", GQE::AssetLoadNow),
   mBackground("resources/Graphics/Board.png", GQE::AssetLoadNow),
   mPlayer1("resources/Graphics/Player1.png", GQE::AssetLoadNow),
@@ -24,6 +32,7 @@ GameState::GameState(GQE::IApp& theApp) :
   mCurrentPlayer(0),
   mWinnerText(NULL)
 {
+	mCharacterImage.loadFromFile("resources/Graphics/character1.png");
 }
 
 GameState::~GameState(void)
@@ -36,6 +45,45 @@ void GameState::DoInit(void)
 {
   // First call our base class implementation
   IState::DoInit();
+
+  // Register all ISystems for the Player prototype
+  mPlayer.AddSystem(&mAnimationSystem);
+  mPlayer.AddSystem(&mRenderSystem);
+
+   // Create a single player instance and set its various properties
+  mCharacter = mPlayer.MakeInstance();
+
+  // Did we get a valid Instance? then set some of its properties now
+  if(mCharacter != NULL)
+  {
+    // Set the player image
+    mCharacter->mProperties.Set<sf::Sprite>("Sprite",
+      sf::Sprite(mCharacterImage));
+
+    // Get the SpriteRect property from our instance
+    sf::IntRect anSpriteRect(0,64*2,64,64);
+    mCharacter->mProperties.Set<sf::IntRect>("rSpriteRect", anSpriteRect);
+
+    // Set our visible property
+    mCharacter->mProperties.Set<bool>("bVisible", true);
+
+    // Set our animation properties
+    mCharacter->mProperties.Set<float>("fFrameDelay", 0.08f);
+    mCharacter->mProperties.Set<sf::Vector2u>("wFrameModifier", sf::Vector2u(1,0));
+    mCharacter->mProperties.Set<sf::IntRect>("rFrameRect",
+        sf::IntRect(0,0,mCharacterImage.getSize().x, mCharacterImage.getSize().y));
+
+    // Set initial position on the screen to the middle of the screen
+    mCharacter->mProperties.Set<sf::Vector2f>("vPosition",
+        sf::Vector2f((float)(mApp.mWindow.getSize().x - anSpriteRect.width) / 2,
+          (float)(mApp.mWindow.getSize().y - anSpriteRect.height) / 2));
+  }
+  else
+  {
+    // Signal the application to exit
+    mApp.Quit(GQE::StatusError);
+  }
+
 
   // Load our Background image which will show the TicTacToe game board
   mBackgroundSprite.setTexture(mBackground.GetAsset());
@@ -220,6 +268,7 @@ void GameState::UpdateFixed(void)
     // Switch to empty (no player)
     mCurrentPlayer = 0;
   }
+  mAnimationSystem.UpdateFixed();
 }
 
 void GameState::UpdateVariable(float theElapsedTime)
@@ -248,6 +297,9 @@ void GameState::Draw(void)
 
   // Draw our cursor
   mApp.mWindow.draw(mCursor);
+
+  // Allow our RenderSystem to draw our character
+  mRenderSystem.Draw();
 }
 
 void GameState::HandleCleanup(void)

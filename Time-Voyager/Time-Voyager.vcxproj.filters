@@ -9,6 +9,9 @@
     <ClCompile Include="TVSource\Apps\GameState.cpp">
       <Filter>Source</Filter>
     </ClCompile>
+    <ClCompile Include="TVSource\Apps\MenuState.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
     <ClCompile Include="TVSource\Apps\Time-Voyager.cpp">
       <Filter>Source</Filter>
     </ClCompile>
@@ -49,6 +52,42 @@
       <Filter>Source</Filter>
     </ClCompile>
     <ClCompile Include="TVSource\Core\stdafx.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TVSource\Entity\classes\ActionGroup.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TVSource\Entity\classes\Instance.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TVSource\Entity\classes\Prototype.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TVSource\Entity\classes\PrototypeManager.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TVSource\Entity\Entity_types.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TVSource\Entity\interfaces\IAction.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TVSource\Entity\interfaces\IEntity.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TVSource\Entity\interfaces\ISystem.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TVSource\Entity\systems\ActionSystem.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TVSource\Entity\systems\AnimationSystem.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TVSource\Entity\systems\MovementSystem.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TVSource\Entity\systems\RenderSystem.cpp">
       <Filter>Source</Filter>
     </ClCompile>
     <ClCompile Include="TVSource\Interfaces\IApp.cpp">
@@ -102,12 +141,15 @@
     <ClCompile Include="TVSource\Utils\StringUtil.cpp">
       <Filter>Source</Filter>
     </ClCompile>
-    <ClCompile Include="TVSource\Apps\MenuState.cpp">
+    <ClCompile Include="TVSource\Entity\classes\Movable.cpp">
       <Filter>Source</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TVSource\Apps\GameState.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="TVSource\Apps\MenuState.hpp">
       <Filter>Source</Filter>
     </ClInclude>
     <ClInclude Include="TVSource\Apps\TimeVoyagerApp.hpp">
@@ -156,6 +198,45 @@
       <Filter>Source</Filter>
     </ClInclude>
     <ClInclude Include="TVSource\Core\targetver.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="TVSource\Entity\classes\ActionGroup.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="TVSource\Entity\classes\Instance.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="TVSource\Entity\classes\Prototype.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="TVSource\Entity\classes\PrototypeManager.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="TVSource\Entity\Entity.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="TVSource\Entity\Entity_types.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="TVSource\Entity\interfaces\IAction.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="TVSource\Entity\interfaces\IEntity.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="TVSource\Entity\interfaces\ISystem.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="TVSource\Entity\systems\ActionSystem.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="TVSource\Entity\systems\AnimationSystem.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="TVSource\Entity\systems\MovementSystem.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="TVSource\Entity\systems\RenderSystem.hpp">
       <Filter>Source</Filter>
     </ClInclude>
     <ClInclude Include="TVSource\Interfaces\IApp.hpp">
@@ -224,7 +305,7 @@
     <ClInclude Include="TVSource\Utils\StringUtil.hpp">
       <Filter>Source</Filter>
     </ClInclude>
-    <ClInclude Include="TVSource\Apps\MenuState.hpp">
+    <ClInclude Include="TVSource\Entity\classes\Movable.hpp">
       <Filter>Source</Filter>
     </ClInclude>
   </ItemGroup>

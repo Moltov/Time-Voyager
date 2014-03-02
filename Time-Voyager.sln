@@ -3,14 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Time-Voyager", "Time-Voyager\Time-Voyager.vcxproj", "{D51F0825-6AF1-4A00-8384-11ECF0A87519}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewFolder1", "NewFolder1", "{C8AA7C5F-4F7B-497F-9A1F-8355353305D1}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewFolder1", "NewFolder1", "{F35605AD-F743-4F02-B0AE-82EBCD121D08}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TVSource", "TVSource", "{5D41546B-3DD4-466B-AFFF-F06392730482}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TVSource", "TVSource", "{11953003-4DEC-4635-BDFB-F0986016162B}"
 	ProjectSection(SolutionItems) = preProject
 		Time-Voyager\TVSource\COPYCURRENTDIRECTORY.bat = Time-Voyager\TVSource\COPYCURRENTDIRECTORY.bat
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Apps", "Apps", "{3BC72027-C0DB-422F-8F73-1126AEB0876B}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Apps", "Apps", "{1354FF8D-3C9D-4B4A-BB36-972FC241EED0}"
 	ProjectSection(SolutionItems) = preProject
 		Time-Voyager\TVSource\Apps\GameState.cpp = Time-Voyager\TVSource\Apps\GameState.cpp
 		Time-Voyager\TVSource\Apps\GameState.hpp = Time-Voyager\TVSource\Apps\GameState.hpp
@@ -21,7 +21,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Apps", "Apps", "{3BC72027-C
 		Time-Voyager\TVSource\Apps\TimeVoyagerApp.hpp = Time-Voyager\TVSource\Apps\TimeVoyagerApp.hpp
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Assets", "Assets", "{F344029A-8C5B-450D-9780-1B98D5E500C3}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Assets", "Assets", "{21B89539-98D1-44ED-A07F-8AE348F1A96A}"
 	ProjectSection(SolutionItems) = preProject
 		Time-Voyager\TVSource\Assets\ConfigAsset.cpp = Time-Voyager\TVSource\Assets\ConfigAsset.cpp
 		Time-Voyager\TVSource\Assets\ConfigAsset.hpp = Time-Voyager\TVSource\Assets\ConfigAsset.hpp
@@ -45,7 +45,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Assets", "Assets", "{F34402
 		Time-Voyager\TVSource\Assets\SoundHandler.hpp = Time-Voyager\TVSource\Assets\SoundHandler.hpp
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{F70DA886-DE62-4C78-B591-8368952E6DFD}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{99242CCC-E7CB-4223-800B-AA3832528367}"
 	ProjectSection(SolutionItems) = preProject
 		Time-Voyager\TVSource\Core\Config.hpp = Time-Voyager\TVSource\Core\Config.hpp
 		Time-Voyager\TVSource\Core\Core.hpp = Time-Voyager\TVSource\Core\Core.hpp
@@ -56,7 +56,51 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{F70DA886-D
 		Time-Voyager\TVSource\Core\targetver.h = Time-Voyager\TVSource\Core\targetver.h
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interfaces", "Interfaces", "{8202D9F5-7D02-4CCC-A319-1205000FD8E0}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Entity", "Entity", "{CFD0891B-0EA7-42FB-8668-D0B71EAFA1A0}"
+	ProjectSection(SolutionItems) = preProject
+		Time-Voyager\TVSource\Entity\CMakeLists.txt = Time-Voyager\TVSource\Entity\CMakeLists.txt
+		Time-Voyager\TVSource\Entity\Entity.hpp = Time-Voyager\TVSource\Entity\Entity.hpp
+		Time-Voyager\TVSource\Entity\Entity_types.cpp = Time-Voyager\TVSource\Entity\Entity_types.cpp
+		Time-Voyager\TVSource\Entity\Entity_types.hpp = Time-Voyager\TVSource\Entity\Entity_types.hpp
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "classes", "classes", "{DB267A64-6F3B-42E7-A247-07457F3E5BA8}"
+	ProjectSection(SolutionItems) = preProject
+		Time-Voyager\TVSource\Entity\classes\ActionGroup.cpp = Time-Voyager\TVSource\Entity\classes\ActionGroup.cpp
+		Time-Voyager\TVSource\Entity\classes\ActionGroup.hpp = Time-Voyager\TVSource\Entity\classes\ActionGroup.hpp
+		Time-Voyager\TVSource\Entity\classes\Instance.cpp = Time-Voyager\TVSource\Entity\classes\Instance.cpp
+		Time-Voyager\TVSource\Entity\classes\Instance.hpp = Time-Voyager\TVSource\Entity\classes\Instance.hpp
+		Time-Voyager\TVSource\Entity\classes\Movable.cpp = Time-Voyager\TVSource\Entity\classes\Movable.cpp
+		Time-Voyager\TVSource\Entity\classes\Movable.hpp = Time-Voyager\TVSource\Entity\classes\Movable.hpp
+		Time-Voyager\TVSource\Entity\classes\Prototype.cpp = Time-Voyager\TVSource\Entity\classes\Prototype.cpp
+		Time-Voyager\TVSource\Entity\classes\Prototype.hpp = Time-Voyager\TVSource\Entity\classes\Prototype.hpp
+		Time-Voyager\TVSource\Entity\classes\PrototypeManager.cpp = Time-Voyager\TVSource\Entity\classes\PrototypeManager.cpp
+		Time-Voyager\TVSource\Entity\classes\PrototypeManager.hpp = Time-Voyager\TVSource\Entity\classes\PrototypeManager.hpp
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "interfaces", "interfaces", "{05DD33D3-9135-43F2-AAC1-8BA2094E2D42}"
+	ProjectSection(SolutionItems) = preProject
+		Time-Voyager\TVSource\Entity\interfaces\IAction.cpp = Time-Voyager\TVSource\Entity\interfaces\IAction.cpp
+		Time-Voyager\TVSource\Entity\interfaces\IAction.hpp = Time-Voyager\TVSource\Entity\interfaces\IAction.hpp
+		Time-Voyager\TVSource\Entity\interfaces\IEntity.cpp = Time-Voyager\TVSource\Entity\interfaces\IEntity.cpp
+		Time-Voyager\TVSource\Entity\interfaces\IEntity.hpp = Time-Voyager\TVSource\Entity\interfaces\IEntity.hpp
+		Time-Voyager\TVSource\Entity\interfaces\ISystem.cpp = Time-Voyager\TVSource\Entity\interfaces\ISystem.cpp
+		Time-Voyager\TVSource\Entity\interfaces\ISystem.hpp = Time-Voyager\TVSource\Entity\interfaces\ISystem.hpp
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "systems", "systems", "{F539654F-C294-4C22-8862-61331A06D557}"
+	ProjectSection(SolutionItems) = preProject
+		Time-Voyager\TVSource\Entity\systems\ActionSystem.cpp = Time-Voyager\TVSource\Entity\systems\ActionSystem.cpp
+		Time-Voyager\TVSource\Entity\systems\ActionSystem.hpp = Time-Voyager\TVSource\Entity\systems\ActionSystem.hpp
+		Time-Voyager\TVSource\Entity\systems\AnimationSystem.cpp = Time-Voyager\TVSource\Entity\systems\AnimationSystem.cpp
+		Time-Voyager\TVSource\Entity\systems\AnimationSystem.hpp = Time-Voyager\TVSource\Entity\systems\AnimationSystem.hpp
+		Time-Voyager\TVSource\Entity\systems\MovementSystem.cpp = Time-Voyager\TVSource\Entity\systems\MovementSystem.cpp
+		Time-Voyager\TVSource\Entity\systems\MovementSystem.hpp = Time-Voyager\TVSource\Entity\systems\MovementSystem.hpp
+		Time-Voyager\TVSource\Entity\systems\RenderSystem.cpp = Time-Voyager\TVSource\Entity\systems\RenderSystem.cpp
+		Time-Voyager\TVSource\Entity\systems\RenderSystem.hpp = Time-Voyager\TVSource\Entity\systems\RenderSystem.hpp
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interfaces", "Interfaces", "{54C2E41A-C1C3-452D-83A4-0E46A679AD28}"
 	ProjectSection(SolutionItems) = preProject
 		Time-Voyager\TVSource\Interfaces\IApp.cpp = Time-Voyager\TVSource\Interfaces\IApp.cpp
 		Time-Voyager\TVSource\Interfaces\IApp.hpp = Time-Voyager\TVSource\Interfaces\IApp.hpp
@@ -76,7 +120,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interfaces", "Interfaces", 
 		Time-Voyager\TVSource\Interfaces\TProperty.hpp = Time-Voyager\TVSource\Interfaces\TProperty.hpp
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Loggers", "Loggers", "{34C10BD3-F823-4A44-8D65-EBD2105ABAC6}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Loggers", "Loggers", "{0D8699B0-4102-415E-A96F-D371A27E7679}"
 	ProjectSection(SolutionItems) = preProject
 		Time-Voyager\TVSource\Loggers\FatalLogger.cpp = Time-Voyager\TVSource\Loggers\FatalLogger.cpp
 		Time-Voyager\TVSource\Loggers\FatalLogger.hpp = Time-Voyager\TVSource\Loggers\FatalLogger.hpp
@@ -90,7 +134,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Loggers", "Loggers", "{34C1
 		Time-Voyager\TVSource\Loggers\StringLogger.hpp = Time-Voyager\TVSource\Loggers\StringLogger.hpp
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Managers", "Managers", "{BCEF33A1-6DFB-48FE-95DE-FF74B62B9B7E}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Managers", "Managers", "{A1FC82D0-977B-4EAF-8463-6A96C9623200}"
 	ProjectSection(SolutionItems) = preProject
 		Time-Voyager\TVSource\Managers\AssetManager.cpp = Time-Voyager\TVSource\Managers\AssetManager.cpp
 		Time-Voyager\TVSource\Managers\AssetManager.hpp = Time-Voyager\TVSource\Managers\AssetManager.hpp
@@ -106,7 +150,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Managers", "Managers", "{BC
 		Time-Voyager\TVSource\Managers\StatManager.hpp = Time-Voyager\TVSource\Managers\StatManager.hpp
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Utils", "Utils", "{ED909932-254A-4D10-AAF8-FDF3C0D5581A}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Utils", "Utils", "{179197BA-6EC5-4542-9CAB-DBDBB062D7C9}"
 	ProjectSection(SolutionItems) = preProject
 		Time-Voyager\TVSource\Utils\StringUtil.cpp = Time-Voyager\TVSource\Utils\StringUtil.cpp
 		Time-Voyager\TVSource\Utils\StringUtil.hpp = Time-Voyager\TVSource\Utils\StringUtil.hpp
@@ -127,12 +171,16 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{3BC72027-C0DB-422F-8F73-1126AEB0876B} = {5D41546B-3DD4-466B-AFFF-F06392730482}
-		{F344029A-8C5B-450D-9780-1B98D5E500C3} = {5D41546B-3DD4-466B-AFFF-F06392730482}
-		{F70DA886-DE62-4C78-B591-8368952E6DFD} = {5D41546B-3DD4-466B-AFFF-F06392730482}
-		{8202D9F5-7D02-4CCC-A319-1205000FD8E0} = {5D41546B-3DD4-466B-AFFF-F06392730482}
-		{34C10BD3-F823-4A44-8D65-EBD2105ABAC6} = {5D41546B-3DD4-466B-AFFF-F06392730482}
-		{BCEF33A1-6DFB-48FE-95DE-FF74B62B9B7E} = {5D41546B-3DD4-466B-AFFF-F06392730482}
-		{ED909932-254A-4D10-AAF8-FDF3C0D5581A} = {5D41546B-3DD4-466B-AFFF-F06392730482}
+		{1354FF8D-3C9D-4B4A-BB36-972FC241EED0} = {11953003-4DEC-4635-BDFB-F0986016162B}
+		{21B89539-98D1-44ED-A07F-8AE348F1A96A} = {11953003-4DEC-4635-BDFB-F0986016162B}
+		{99242CCC-E7CB-4223-800B-AA3832528367} = {11953003-4DEC-4635-BDFB-F0986016162B}
+		{CFD0891B-0EA7-42FB-8668-D0B71EAFA1A0} = {11953003-4DEC-4635-BDFB-F0986016162B}
+		{54C2E41A-C1C3-452D-83A4-0E46A679AD28} = {11953003-4DEC-4635-BDFB-F0986016162B}
+		{0D8699B0-4102-415E-A96F-D371A27E7679} = {11953003-4DEC-4635-BDFB-F0986016162B}
+		{A1FC82D0-977B-4EAF-8463-6A96C9623200} = {11953003-4DEC-4635-BDFB-F0986016162B}
+		{179197BA-6EC5-4542-9CAB-DBDBB062D7C9} = {11953003-4DEC-4635-BDFB-F0986016162B}
+		{DB267A64-6F3B-42E7-A247-07457F3E5BA8} = {CFD0891B-0EA7-42FB-8668-D0B71EAFA1A0}
+		{05DD33D3-9135-43F2-AAC1-8BA2094E2D42} = {CFD0891B-0EA7-42FB-8668-D0B71EAFA1A0}
+		{F539654F-C294-4C22-8862-61331A06D557} = {CFD0891B-0EA7-42FB-8668-D0B71EAFA1A0}
 	EndGlobalSection
 EndGlobal

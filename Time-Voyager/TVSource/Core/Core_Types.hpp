@@ -23,7 +23,7 @@
 #include <map>
 #include <string>
 #include <vector>
-#include "Config.hpp"
+#include <TVSource/Core/Config.hpp>
 
 #define INFO_LEVEL   0  ///< Defines the value for GQE::SeverityInfo
 #define WARN_LEVEL   1  ///< Defines the value for GQE::SeverityWarning
